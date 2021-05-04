@@ -1,0 +1,7 @@
+<div style="margin-top:20px">
+    <h2 style="text-align:center;" *ngFor="let title of titleskills" [title]="title">{{title.name}}</h2>
+</div>
+<ul style="margin-top:20px">
+    <li *ngFor="let skill of skills">{{ skill.name }}</li>
+    <li *ngIf="let skill of skills">{{ skill.name }}</li>
+</ul>
